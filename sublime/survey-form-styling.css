@@ -1,0 +1,202 @@
+body
+{
+	background-color: palegoldenrod;
+	font-family: sans-serif;
+	justify-items: center;
+	display: flex;
+}
+#title
+{
+	margin-top: 25px;
+	text-align: center;
+
+}
+#description
+{
+	font-family: monospace;
+	font-weight: 200;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#survey-form
+{
+	border: 0px inset black;
+	background-color: cadetblue;
+	padding: 50px;
+	border-radius: 35px;
+	text-align: ;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+#name-div
+{
+	padding-bottom: 10px;
+}
+#name-label
+{
+	font-weight: bolder;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+#name
+{
+	align-content: center;
+	background-color: black;
+	color: whitesmoke;
+}
+#email-div
+{
+	padding-bottom: 10px;
+}	
+#email-label
+{
+	font-weight: bolder;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+#email
+{
+	background-color: black;
+	color: whitesmoke;
+}
+#number-div
+{
+	padding-bottom: 10px;
+}
+#number-label
+{
+	font-weight: bolder;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+#number
+{
+	background-color: black;
+	color: whitesmoke;
+}
+#dropdown-div
+{
+	padding-bottom: 10px;
+}
+#dropdown-label
+{
+	font-weight: bolder;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+#dropdown
+{
+	background-color: black;
+	color: whitesmoke;
+}
+
+
+#gender-div
+{
+	padding-bottom: 10px;
+}
+#gender-label
+{
+	font-weight: bolder;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+
+
+
+#hobby-div
+{
+	padding-bottom: 10px;
+}
+#hobby-label
+{
+	font-weight: bolder;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+
+
+#text-area
+{
+	padding-bottom: 10px;
+}
+#textarea-p
+{
+	font-weight: bolder;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+#textarea-box
+{
+	width: 300px;
+	height: 90px;
+	background-color: black;
+	color: whitesmoke;
+	border: none;
+	border-radius: 15px;
+	font-style: oblique;
+	font-family: monospace;
+}
+
+
+#submit-div
+{
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+#submit
+{
+	border: none;
+	border-radius: 15px;
+	background-color: black;
+	color: whitesmoke;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	margin-left: 200px;
+}
+
+#submit:hover
+{
+	background-color: whitesmoke;
+	color: black;
+	font-weight: bolder;
+}
+
+input[type=text],select
+{
+	width: 100%;
+	display: block;
+	padding: 10px 12px; 
+	border: 0px solid black;
+	border-radius: 10px;
+}
+
+input[type=email],select
+{
+	width: 500px;
+	padding: 10px 12px; 
+	border: none;
+	border-radius: 10px;
+}
+input[type=number],select
+{
+	width: 500px;
+	padding: 10px 12px; 
+	border: none;
+	border-radius: 10px;
+}

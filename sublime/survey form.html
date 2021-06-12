@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>
+    Survey Form
+    </title>
+    <link rel="stylesheet" type="text/css" href="survey-form-styling.css">
+  </head>
+    <body>
+      <div id="inner-body">
+        <h1 id="title">SURVEY FORM</h1>
+         <p id=description>
+            Thank you for taking this survey!!!
+         </p>
+        
+        <form id="survey-form">
+
+          <div id="name-div">
+            <label id="name-label">Name</label>
+            <br>
+            <input type="text" id="name" required placeholder="kuldeep">
+          </div>
+          
+          <div id="email-div">
+            <label id="email-label">Email</label>
+            <br>
+            <input type="email" id="email" required placeholder="xyz@gmail.com">
+          </div>
+
+          <div id="number-div">
+            <label id="number-label">Number</label>
+            <br>
+            <input type="number" id="number" min="0000000000" max="9999999999" placeholder="mobile number">
+          </div>
+          
+          <div id="dropdown-div">
+            <label id="dropdown-label">dropdown</label>
+            <br>
+            <select for="dropdown" id="dropdown">
+            <option>select</option>
+            <option>car</option>
+            <option>mobile</option>
+            <option>fan</option>
+            <option>truck</option>
+            </select>
+          </div>  
+
+          <div id="gender-div">
+            <label for="gender-selection" id="gender-label">Select your Gender.</label>
+            <br>
+            <input type="radio" name="gender" value="Male" class="gender-choice">Male
+            <br>
+            <input type="radio" name="gender" value="Female" class="gender-choice">Female
+            <br>
+            <input type="radio" name="gender" value="Other" class="gender-choice">Other
+          </div>
+
+          <div id="hobby-div">
+            <label for="hobby" id="hobby-label">What you love to do?</label>
+            <br>
+            <input type="checkbox" name="hobby" value="car">I love drving.
+            <br>
+            <input type="checkbox" name="hobby" value="reading">I love reading.
+            <br>
+            <input type="checkbox" name="hobby" value="foody">I love pizza. 
+          </div>
+
+          <div id="text-area">
+            <p id="textarea-p">Any feedbacks??</p>
+            
+            <textarea id="textarea-box">comments.</textarea>
+          </div>
+
+          <div id="submit-div">
+            <button id="submit" type="submit">submit</button>
+          </div>
+          
+        </form>
+      </div>
+    </body>
+  </html

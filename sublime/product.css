@@ -1,0 +1,151 @@
+body
+{
+	background-color:#ffffff;
+}
+
+#header
+{
+	display: flex;
+	
+
+}
+#header-img
+{
+	width: 340px;
+	height: 180px;
+}
+
+#nav-bar
+{
+
+}
+
+#ul-nav 
+{
+	margin-left: 380px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 60px;
+	list-style-type: none;
+	text-decoration-style: none;
+	white-space: nowrap;
+	position: static;
+
+}
+.li-nav-1
+{
+	text-decoration-line:none ;
+}
+.nav-link
+{
+	font-style: italic;
+	font-size: 20px;
+	font-family: monospace;
+	font-weight: ;
+	background-color: ;
+	border: none;
+	border-radius: 10px;
+}
+.nav-link:hover
+{
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: oblique;
+	color: mediumpurple;
+	background-color: lawngreen;
+	border-radius: 20px;
+}
+section-div
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#paras
+{
+	font-family: Times New Roman;
+	font-size:25px;
+	font-weight: 500;
+	font-display:;
+	letter-spacing: 0.2px;
+	word-spacing: 1.5px;
+}
+
+.product-video-div
+{
+	
+}
+#video
+{
+	align-items: center;
+	margin-left: 400px;
+	margin-top: 10px;
+	margin-right: ;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	border: none;
+	position: relative;
+}
+
+#form-div
+{
+
+	border-radius: 50px;
+	display: ;
+	white-space: nowrap;
+	text-align: center;
+	border-radius: 1px solid black;
+	background-color: blanchedalmond;
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-bottom: 20px;
+	padding-top:20px ;
+}
+#email-div
+{
+	display: block;
+}
+#email-label
+{
+	font-weight:bolder ;
+	font-family: monospace;
+	font-size: 25px;
+	font-style: normal;
+}
+#email
+{
+	border: none;
+	border-radius: 4px;
+	width: 8cm;
+	
+}
+#submit
+{
+	background-color: black;
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border: none;
+	width: 2.5cm;
+	height: 35px;
+	margin-top: 10px;
+	border-radius: 9px;
+}
+#submit:hover {opacity: 0.5;}
+{
+	background-color: whitesmoke;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bolder;
+	border: none;
+	width: 2.5cm;
+	height: 35px;
+	margin-top: 10px;
+	border-radius: 9px;
+}
